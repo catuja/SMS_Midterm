@@ -1,0 +1,8 @@
+prefix=/home/catuja/sms/SMS_Midterm/devel
+
+Name: project
+Description: Description of project
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
