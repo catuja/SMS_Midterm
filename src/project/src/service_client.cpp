@@ -1,6 +1,5 @@
 #include "ros/ros.h"
 #include "project/CheckWeather.h"
-
 #include <iostream>
 
 int main(int argc, char **argv)
@@ -29,7 +28,6 @@ int main(int argc, char **argv)
       ROS_INFO("Exiting Application...");
       return 0;
     }
-
     if (client.call(srv))
     {
       int resp;
@@ -44,7 +42,5 @@ int main(int argc, char **argv)
     }
 
     std::cin.clear();
-
-
   }
 }

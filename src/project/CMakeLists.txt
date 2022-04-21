@@ -171,6 +171,9 @@ add_dependencies(service_client project_generate_messages_cpp)
 add_executable(publisher_node src/publisher_node.cpp)
 target_link_libraries(publisher_node ${catkin_LIBRARIES})
 
+add_executable(subscriber_node src/subscriber_node.cpp)
+target_link_libraries(subscriber_node ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

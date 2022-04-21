@@ -1,7 +1,7 @@
 #include "ros/ros.h"
 #include "std_msgs/Float32.h"
 
-const float SPEED = 80;
+const float SPEED = 85;
 
 int main(int argc, char **argv)
 {

@@ -1,0 +1,5 @@
+<launch>
+<node pkg="project" type="publisher_node" name="publisher_node1" output="screen" />
+<node pkg="project" type="subscriber_node" name="subscriber_node1" output="screen" />
+<param name="speed_limit" value="80" type="double"/>
+</launch>
