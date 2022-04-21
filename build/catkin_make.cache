@@ -1,2 +1,0 @@
-project
--DCATKIN_DEVEL_PREFIX=/home/catuja/sms/SMS_Midterm/devel -DCMAKE_INSTALL_PREFIX=/home/catuja/sms/SMS_Midterm/install -G Unix Makefiles
